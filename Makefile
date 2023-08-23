@@ -11,3 +11,6 @@ sync: dump
 
 commit:
 	git commit -m "Sync $(date)"
+
+push: commit
+	git push
